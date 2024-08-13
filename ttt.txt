@@ -1,8 +1,13 @@
 ttt
-<<<<<<< HEAD
-=======
 xx
 cccx
 aaas:
-ccc
->>>>>>> develop
+cc
+ttt
+sss
+br55
+br66
+dev1
+dev2
+br00
+c1
