@@ -1,1 +1,8 @@
 ttt
+<<<<<<< HEAD
+=======
+xx
+cccx
+aaas:
+ccc
+>>>>>>> develop
