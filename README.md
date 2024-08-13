@@ -7,5 +7,5 @@
 - asd*fa*
 - asdf
 - ccc
-- aaa
-- wwww
+- aa
+- sss
