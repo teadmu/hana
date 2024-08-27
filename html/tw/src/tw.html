@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <div class="h-36 flex flex-row flex-wrap justify-around flex-auto">
+      <div class="basis-1/2 bg-red-300">111</div>
+      <div class="bg-blue-300">222</div>
+      <div class="bg-green-300">333</div>
+      <div class="bg-slate-300">444</div>
+      <div class="bg-yellow-300">555</div>
+    </div>
+    <div class="grid grid-cols-3 gap-3">
+      <div class="w-32 bg-red-300 order-2">111</div>
+      <div class="w-32 bg-blue-300">222</div>
+      <div class="w-32 bg-green-300">333</div>
+      <div class="w-32 bg-slate-300">444</div>
+      <div class="w-32 bg-yellow-300">555</div>
+    </div>
+
+    <div
+      class="containerx mx-autox h-lvh w-fullx min-w-full bg-cover"
+      style="
+        background-image: url('https://cdn.pixabay.com/photo/2018/03/04/17/23/tiger-3198598_1280.jpg');
+      "
+    >
+      <button class="btn">btn</button>
+      <button
+        class="text-white-500 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded-md uppercase shadow-md focus:ring focus:ring-blue-400 focus:ring-opacity-75"
+      >
+        btn-primary
+      </button>
+      <button
+        class="text-white-500 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded-md uppercase shadow-md focus:ring focus:ring-blue-400 focus:ring-opacity-75"
+      >
+        btn-primary
+      </button>
+      <button class="btn text-white-500 bg-red-500 hover:bg-red-600">
+        btn-danger
+      </button>
+      <button class="btn text-white-500 bg-green-500 hover:bg-green-600">
+        success
+      </button>
+      <h1
+        class="text-4xl text-white-500 hover:text-black-500 font-extrabold underline"
+      >
+        title
+      </h1>
+
+      <div class="bg-gradient-to-t from-slate-300 to-blue-300 h96">
+        bg
+        <button
+          href="#"
+          class="w-96 h-36 bg-green-300 hover:bg-green-100 transition-color-delay-200"
+        >
+          animation
+        </button>
+        <button
+          href="#"
+          class="w-96 h-36 bg-blue-300 hover:bg-blue-100 translate-x-4 skew-y-3"
+        >
+          animation
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
